@@ -1,11 +1,4 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.ComponentModel;
-using System.Data;
-using System.Drawing;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using System.Windows.Forms;
 
 namespace Form2Form_Cs
@@ -20,6 +13,7 @@ namespace Form2Form_Cs
 
         private void btnStartForm2_Click(object sender, EventArgs e)
         {
+            lbxAntwort.Items.Clear();
             tbxInfo.Text = "myForm gestartet";
             myForm = new Form2();
             myForm.Show();
