@@ -63,10 +63,12 @@ namespace Form2Form_Cs
             // 
             // lbxAntwort
             // 
+            this.lbxAntwort.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lbxAntwort.FormattingEnabled = true;
+            this.lbxAntwort.ItemHeight = 16;
             this.lbxAntwort.Location = new System.Drawing.Point(40, 100);
             this.lbxAntwort.Name = "lbxAntwort";
-            this.lbxAntwort.Size = new System.Drawing.Size(181, 56);
+            this.lbxAntwort.Size = new System.Drawing.Size(181, 52);
             this.lbxAntwort.TabIndex = 6;
             // 
             // StartForm
