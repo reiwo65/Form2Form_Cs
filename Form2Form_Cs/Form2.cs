@@ -21,7 +21,7 @@ namespace Form2Form_Cs
         private void btnGO_Click(object sender, EventArgs e)
         {
             // Anzeigetext
-            string[] TextArray = new string[] { textBox1.Text , "Textinfo" };
+            string[] TextArray = new string[] { textBox1.Text , "neue Textinfo" };
 
             // Event starten wenn es einen Abonnenten gibt
             if (DatenForm2 != null)
